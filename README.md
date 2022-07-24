@@ -17,6 +17,8 @@ Todo application made with:
 ```bash
 # clone the project
 git clone https://github.com/Sbn1993/django-flutter-todo.git
+#Then install pip with the help of 
+$ apt install python3-pip
 # install pipenv if not installed already
 pip install pipenv
 # install all python packages
@@ -26,13 +28,12 @@ pipenv shell
 # setup backend
 cd Backend
 # make / apply all migrations
-python manage.py makemigrations
-python manage.py migrate
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
 # create new super user
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 # run python server (http://localhost:8000)
-python manage.py runserver
-
+$ python3 manage.py runserver:8002
 # open new terminal and go to the Mobile folder to setup front-end
 cd Mobile
 # get flutter packages
