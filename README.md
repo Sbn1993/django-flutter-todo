@@ -16,7 +16,7 @@ Todo application made with:
 ## Setup
 ```bash
 # clone the project
-git clone git@github.com:ReeceRose/django-flutter-todo.git djang-flutter-todo
+git clone https://github.com/Sbn1993/django-flutter-todo.git
 # install pipenv if not installed already
 pip install pipenv
 # install all python packages
